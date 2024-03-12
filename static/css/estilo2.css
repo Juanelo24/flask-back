@@ -51,11 +51,12 @@
 .header .nav-links a {
   background-color: orange;
   padding: 0 10px;
+  border: 1px solid black;
   border-radius: 10px;
   text-align: center;
   color: white;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 24px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -103,7 +104,7 @@ body {
 /* Diseño del boton "realizar" de la tarjeta */
 .btn {
   width: 100%;
-  background: orange;
+  background: rgb(245, 196, 104);
   color: #fff;
   padding: 10px;
   text-align: center;

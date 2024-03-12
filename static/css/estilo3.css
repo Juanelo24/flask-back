@@ -10,7 +10,7 @@
 
 /* Diseño del body de la pagina*/
 body {
-  background-color: whitesmoke;
+  background-color: rgb(255, 255, 165);
 }
 
 /* Diseño general del header*/
@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 65px;
+  height: 85px;
   padding: 5px 10%;
 }
 
@@ -56,11 +56,12 @@ body {
 .nav-links a {
   background-color: orange;
   padding: 0 5px;
+  border: 1px solid black;
   border-radius: 10px;
   text-align: center;
   color: white;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 24px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -83,11 +84,11 @@ body {
 }
 
 .box__abarrotes {
-  width: 800px;
-  height: 400px;
+  width: 900px;
+  height: 500px;
   background-color: white;
-  border-color: rgba(255, 255, 255, 0.2);
-  border-width: 4px;
+  border-color: black;
+  border-width: 2px;
   border-style: solid;
   display: flex;
   justify-content: center;
@@ -129,9 +130,9 @@ body {
   grid-gap: 20px;
   place-items: center;
   width: 400px;
-  height: 250px;
+  height: 280px;
   background-color: white;
-  border: 4px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid black;
   padding-top: 30px;
   margin-bottom: 30px;
 }
@@ -155,9 +156,8 @@ body {
   border-width: 2px;
   border-style: solid;
   border-color: black;
-  border-radius: 8px;
   text-align: center;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .button__generar {
@@ -169,7 +169,7 @@ body {
   width: 170px;
   height: 50px;
   background-color: orange;
-  border-radius: 8px;
+  border: 2px solid black;
   text-align: center;
   color: white;
   font-weight: 600;
@@ -180,11 +180,37 @@ body {
   justify-content: center;
 }
 
+.tam_despensa{
+  display: flex;
+  justify-content: space-between;
+}
+
+.tam_despensa p{
+  width: 150px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.button__type_despensa{
+  display: flex;
+  gap: 30px;
+}
+
+.tam_despensa button {
+  width: 95px;
+  height: 50px;
+  background-color: orange;
+  border: 2px solid black;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+
 .button__box__form button {
   width: 170px;
   height: 50px;
   background-color: orange;
-  border-radius: 8px;
+  border: 2px solid black;
   text-align: center;
   color: white;
   font-weight: 600;
@@ -200,7 +226,7 @@ body {
   width: 170px;
   height: 50px;
   background-color: orange;
-  border-radius: 8px;
+  border: 2px solid black;
   text-align: center;
   color: white;
   font-weight: 600;
