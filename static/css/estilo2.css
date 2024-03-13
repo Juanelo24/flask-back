@@ -111,9 +111,6 @@ body {
   border-radius: 8px;
 }
 
-.card .card-title li:hover{
-  transform: scale(1.2);
-}
 
 /* Titulo de las tarjetas*/
 .card-title {
