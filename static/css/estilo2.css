@@ -111,6 +111,10 @@ body {
   border-radius: 8px;
 }
 
+.btn:hover{
+  color: black;
+}
+
 /* Titulo de las tarjetas*/
 .card-title {
   font-size: 18px;
