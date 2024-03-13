@@ -16,12 +16,12 @@ body {
     background-size: 1250px 600px;
     background-position: center;
     background-repeat: no-repeat;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(6px);
 }
 
 .wrapper {
     width: 350px;
-    background-color: rgb(245, 196, 104);
+    background-color: rgb(242, 206, 140);
     border: 2px solid rgba(255, 255, 255, .2);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     color: #fff;
