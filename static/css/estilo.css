@@ -21,10 +21,10 @@ body {
 
 .wrapper {
     width: 350px;
-    background-color: rgb(242, 206, 140);
+    background-color: white;
     border: 2px solid rgba(255, 255, 255, .2);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    color: #fff;
+    color: black;
     border-radius: 10px;
     padding: 30px 40px;
 }
@@ -50,7 +50,7 @@ body {
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 40px;
     font-size: 16px;
-    color: #fff;
+    color: black;
     padding: 20px 45px 20px 20px;
 }
 
