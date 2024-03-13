@@ -16,7 +16,7 @@ body {
     background-size: 1250px 600px;
     background-position: center;
     background-repeat: no-repeat;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(8px);
 }
 
 .wrapper {
