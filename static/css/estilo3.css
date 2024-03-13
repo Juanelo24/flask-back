@@ -82,6 +82,7 @@ body {
   justify-content: space-around;
 }
 
+/* Tarjeta derecha que contiene la tabla */
 .box__abarrotes {
   width: 800px;
   height: 400px;
@@ -94,6 +95,7 @@ body {
   margin-left: 0px;
 }
 
+/* Formato para la tabla generada */
 .abarrotes__contenido {
   width: 700px;
   margin-top: 30px;
@@ -116,13 +118,14 @@ body {
 }
 
 .table__abarrotes td {
-  border: 1px solid #000;
+  border: 2px solid #000;
 }
 
 .table__abarrotes th {
-  border: 1px solid #000;
+  border: 2px solid #000;
 }
 
+/* Tarjeta derecha que contiene los botones*/
 .box__form {
   display: grid;
   grid-template-columns: 1fr;
@@ -149,6 +152,7 @@ body {
   margin-right: 20px;
 }
 
+/* Recuadro para poner cuantas despensas se van a realizar */
 .content__input input {
   background-color: rgb(245, 196, 104);
   width: 200px;
@@ -226,7 +230,6 @@ body {
   width: 170px;
   height: 50px;
   background-color: orange;
-  border: 2px solid black;
   text-align: center;
   color: white;
   font-weight: 600;
