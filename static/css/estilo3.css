@@ -107,6 +107,7 @@ body {
 
 .table__abarrotes {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .table__header td {
@@ -184,18 +185,18 @@ body {
   justify-content: center;
 }
 
-.tam_despensa{
+.tam_despensa {
   display: flex;
   justify-content: space-between;
 }
 
-.tam_despensa p{
+.tam_despensa p {
   width: 150px;
   font-weight: 600;
   font-size: 20px;
 }
 
-.button__type_despensa{
+.button__type_despensa {
   display: flex;
   gap: 30px;
 }
